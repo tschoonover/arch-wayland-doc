@@ -1,0 +1,6 @@
+Packages:
+- pavucontrol
+  - pulseaudio
+
+Configuration:
+- None

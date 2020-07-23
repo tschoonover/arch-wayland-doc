@@ -1,0 +1,16 @@
+Printer Make: Brother
+Printer Model: MFC-J870DW
+
+Required Packages:
+- cups
+
+Configuration (cups web client):
+- sudo systemctl enable org.cups.cupsd.service --now
+- Navigate to http://localhost:631/admin and click Add Printer
+- Authenticate as root (or user with print admin rights)
+- Protocol = ipp
+- Connection = ipp://192.168.0.194/ipp/port1
+
+Configuration (cli):
+- sudo systemctl enable org.cups.cupsd.service --now
+- sudo lpadmin -p brother-mfc-j870dw -E -v "ipp://192.168.0.194/ipp/port1" -m everywhere

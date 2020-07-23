@@ -1,0 +1,11 @@
+Packages:
+- network-manager-applet
+ - network-manager (dependency)
+ - nm-connection-editor (dependency)
+- gnome-keyring
+- todo - nm-applet unreliable startup due to suspected missing notification server
+
+Configuration:
+- Launch nm-connection-editor and add connection
+- Connect manually with nmtui or nmcli
+- Use connect automatically via desktop environment/window manager configuration

@@ -1,0 +1,10 @@
+Printer Make: Brother
+Printer Model: MFC-J870DW
+
+Required Packages: 
+- brother-mfc-j870dw (aur)
+- brscan4 (dependency on SANE)
+- simple-scan (GTK GUI)
+
+Configuration:
+- sudo brsaneconfig4 -a name=MFC-J870DW model=MFC-J870DW ip=192.168.0.194
