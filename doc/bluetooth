@@ -1,0 +1,7 @@
+Packages:
+- bluez
+- blueman
+- pulseaudio-bluetooth
+
+Configuration:
+- TODO
