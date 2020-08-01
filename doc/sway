@@ -1,0 +1,22 @@
+Packages:
+- sway
+ - swaybg
+ - swayidle
+ - swaylock
+ - swaynagmode
+- waybar
+- wl-clipboard
+- wob-git
+- wofi
+- qt5-wayland
+- grim
+- brightnessctl
+- firefox
+- greetd
+  - greetd-wlgreet
+- kitty
+- mako
+- mesa
+- slurp
+
+
