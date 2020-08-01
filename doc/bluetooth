@@ -4,4 +4,5 @@ Packages:
 - pulseaudio-bluetooth
 
 Configuration:
-- TODO
+- systemctl enable bluetooth.service --now
+- Launch blueman to add/pair devices.

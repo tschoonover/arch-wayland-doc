@@ -3,4 +3,4 @@ Packages:
   - pulseaudio
 
 Configuration:
-- None
+- Launch pavucontrol and unmute primary output device.

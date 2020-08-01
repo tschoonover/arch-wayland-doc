@@ -3,7 +3,7 @@ Packages:
  - network-manager (dependency)
  - nm-connection-editor (dependency)
 - gnome-keyring
-- todo - nm-applet unreliable startup due to suspected missing notification server
+- mako
 
 Configuration:
 - Launch nm-connection-editor and add connection

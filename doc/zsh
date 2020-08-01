@@ -1,0 +1,23 @@
+Packages:
+- zsh
+- zsh-completions
+
+Configuation:
+- Launch zsh and complete zsh-new-user-install.
+- To inoke  manually:
+  ```zsh
+  $ autoload -Uz zsh-newuser-install
+  $ zsh-newuser-install -f
+  ```
+- chsh -s /bin/zsh
+- Install Oh My Zsh
+  ```zsh
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
+- Install Spaceship theme:
+  ```zsh
+  git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+  ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+  ```
+  Set `ZSH_THEME="spaceship"` in your `.zshrc`.
+
