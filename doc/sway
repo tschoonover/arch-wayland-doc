@@ -19,4 +19,7 @@ Packages:
 - mesa
 - slurp
 
-
+Applications:
+- electron-ozone
+- code-git
+- firefox
